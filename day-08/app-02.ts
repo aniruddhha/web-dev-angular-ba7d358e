@@ -25,9 +25,9 @@ var fn5: (nm : string) => number | string | boolean = function(nm: string) {
     return false
 }
 
-var fn6: (nm : string) => number | string | boolean = (nm: string) => {
-    if(nm == 'a') return 10
-    if(nm == 'b') return nm
+var fn6: (nm : string) => number | string | boolean = (jhhfhjfjhg: string) => {
+    if(jhhfhjfjhg == 'a') return 10
+    if(jhhfhjfjhg == 'b') return jhhfhjfjhg
     return false
 }
 
