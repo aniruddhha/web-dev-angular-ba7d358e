@@ -1,0 +1,3 @@
+- discussed about every file in project structure
+- discussion on src folder
+- Flow of angular working, execution of files.
