@@ -1,0 +1,5 @@
+- import, export
+- classes and objects
+- constructor
+- access modifiers
+- decorators
