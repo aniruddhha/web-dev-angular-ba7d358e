@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "outDir": "dist"
+    },
+    "files": [
+        "./app-01.ts",
+        "./app-02.ts",
+        "./app-03.ts",
+        
+    ]
+}
