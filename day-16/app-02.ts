@@ -1,0 +1,1 @@
+var obj : { a : number, b: string } = { a: 1, b : 'hi' }
