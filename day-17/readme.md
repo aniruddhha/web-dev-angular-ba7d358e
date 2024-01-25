@@ -1,1 +1,3 @@
 - ES6: let, var, const
+- object destructuring and ES6: property shorthand notation
+- typeof operator
