@@ -1,2 +1,9 @@
 - Operators
     - arithmatic
+    - assigment
+    - logical
+    - bitwise
+    - ternary 
+    - nullish
+    - 
+- Arrow Functions
