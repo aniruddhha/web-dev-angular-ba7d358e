@@ -1,0 +1,6 @@
+- Arrays
+    - basics of array
+    - array operations
+        - push, unshift
+        - pop, shift
+        - 

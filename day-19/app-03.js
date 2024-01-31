@@ -1,0 +1,18 @@
+var arr = [100, 210, 110, 23, 60, 89, 50, 34, 23, 456];
+console.log("\uD83D\uDFE2 Original \uD83D\uDFE2");
+console.log(arr);
+var sliced1 = arr.slice(1);
+console.log("\uD83D\uDC49 Sliced");
+console.log(sliced1);
+var sliced2 = arr.slice(0, 7);
+console.log("\uD83D\uDC49 Sliced");
+console.log(sliced2);
+var sliced3 = arr.slice(-1);
+console.log("\uD83D\uDC49 Sliced");
+console.log(sliced3);
+var sliced4 = arr.slice(-4, -1);
+console.log("\uD83D\uDC49 Sliced");
+console.log(sliced4);
+var sliced5 = arr.slice(-6, -4);
+console.log("\uD83D\uDC49 Sliced");
+console.log(sliced5);
