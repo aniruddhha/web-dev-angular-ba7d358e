@@ -5,5 +5,4 @@
     - bitwise
     - ternary 
     - nullish
-    - 
 - Arrow Functions

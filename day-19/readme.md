@@ -1,6 +1,6 @@
 - Arrays
     - basics of array
-    - array operations
+    - basic array operations
         - push, unshift
         - pop, shift
         - slice with positive and negative index
