@@ -1,5 +1,5 @@
 const arr1: [number, string][]  = [
-    [1, "abc"],
+    [1, "abc"], // 0th, 1st
     [2, "pqr"],
     [3, "xyz"]
 ]
