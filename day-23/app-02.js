@@ -22,7 +22,7 @@ const dt1 = connectToServer('nw2r2rf', 'a' ,'http','abc.com', 'key28765r', 'key8
 
 // west, tcp, vpc1 = tcpWestVpc1
 
-const tcpWestVpc1 = connectToServer.bind(null, 'nw12wfdf', 'west', 'tcp' )
+const tcpWestVpc1 = connectToServer.bind(null, 'nw12wfdf', 'west', 'tcp' ) // partial
 const dt2 = tcpWestVpc1('pqr.com', 'key7rtw', 'key8sfgjs', 'key9sadfjh')
 console.log(dt2)
 
