@@ -1,3 +1,3 @@
 - String
     - Regular Expressions
-    - String Functionsty
+    - String Functions
