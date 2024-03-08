@@ -1,0 +1,5 @@
+- Understood HTML background
+- Basic Structure of HTML
+- Studied few tags
+- style attribute
+- Few more interactive tags
