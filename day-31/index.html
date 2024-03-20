@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Basics</title>
+
+    <style>
+        div {
+           width: 200px;
+           height: 100px;
+        }
+
+        #dvRd {
+            background-color: red;
+        }
+
+        .clsBl {
+            background-color: blue;
+        }
+
+        .brd {
+            border-width: 5px;
+            border-color: yellow;
+            border-style: dotted;
+        }
+    </style>
+
+    <link rel="stylesheet" href="./app-01.css">
+    <link rel="stylesheet" href="./app-02.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div style="width: 200px;height: 100px;background-color: cadetblue;"></div>            
+            <div style="width: 200px; height: 100px;background-color: blue;"></div>
+            <div style="width: 200px;height: 100px;background-color: burlywood;"></div>
+        </section>
+        <hr>
+        <section>
+            <div id="dvRd" class="brd"></div>            
+            <div class="clsBl brd"></div>
+            <div class="brd"></div>
+        </section>
+    </main>
+</body>
+
+</html>
