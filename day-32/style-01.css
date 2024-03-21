@@ -1,0 +1,22 @@
+/* main > :nth-child(2) {
+    background-color: red; 
+   background-color: #ff0000; 
+    background-color: rgb(255, 0, 0); 
+}
+ */
+
+ main > :last-child {
+    background-color: red;
+ }
+
+ :root {
+    background-color: white;
+ }
+
+ main > div:first-of-type {
+    background-color: yellow;
+ }
+
+ p:hover {
+    border: 2px solid black;
+ }

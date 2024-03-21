@@ -1,0 +1,19 @@
+/* div p {
+    Descedent Selector
+    background-color: yellowgreen;
+} */
+
+/* div > p {
+    Child Selector
+    background-color: yellowgreen;
+} */
+
+/* div + p {
+   Adjecent Sibling Selector
+    background-color: yellowgreen;
+} */
+
+div ~ p {
+   /* General Sibling Selector */
+     background-color: yellowgreen;
+}
