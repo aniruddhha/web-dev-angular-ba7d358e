@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Selectors</title>
+
+    <link rel="stylesheet" href="./style-01.css">
+   
+</head>
+<body>
+
+    <input type="text" id="abc"/>
+    <input type="text" class="big"/>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ex ratione, quaerat autem earum magni, sapiente quia vitae inventore maxime quos numquam repellendus, consequuntur quas qui quod! Error, nobis consequatur.</p>
+    </div>
+    
+    <script>
+        const a = 10
+        console.log(a)
+    
+        console.log(document)
+        const ip = document.querySelector('#abc')
+        console.log(ip)
+    
+        const ipBig = document.querySelectorAll('.big') 
+        console.log(ipBig)
+    
+        const para = document.querySelector('div > p')
+        console.log(para)
+    </script>
+    <script src="./app-01.js"></script>
+</body>
+
+</html>
