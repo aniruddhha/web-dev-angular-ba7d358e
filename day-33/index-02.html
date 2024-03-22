@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good</title>
+
+    <style>
+        main>section:nth-child(1)>* {
+            font-size: 30px;
+        }
+
+        ul {
+            list-style-type: lower-alpha;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+        <section>
+            <input type="text">
+            <input type="button" value="Okay">
+        </section>
+        <section>
+            <div>
+                <ol>
+                    <li>abc</li>
+                    <li>pqr</li>
+                    <li>lmn</li>
+                    <li>xyz</li>
+                </ol>
+            </div>
+            <div>
+                <ul>
+                    <li>abc</li>
+                    <li>pqr</li>
+                    <li>lmn</li>
+                    <li>xyz</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const arr = ['abc', 'pqr', 'lmn', 'xyz', 'ppp', 'qqqq', 'rrr']
+        let lis = ``
+        for(let i = 0; i < arr.length;i++) {
+            lis +=  `<li> ${arr[i]} </li>`
+        }
+        console.log(lis)
+        document.write(`<ul>${lis}</ul>`)
+    </script>
+</body>
+
+</html>

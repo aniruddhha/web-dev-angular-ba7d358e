@@ -4,3 +4,4 @@ console.log(document)
 
 const ipAbc = document.getElementById('abc')
 console.log(ipAbc)
+console.log(ipAbc.value)
