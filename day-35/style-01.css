@@ -1,0 +1,28 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 80%;
+    height: 100%;
+    background-color: chartreuse;
+
+    font-size: 3em;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    background-color: cadetblue;
+}
+
+.non-res-box {
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+}
+
+p {
+    font-size: inherit;
+}
