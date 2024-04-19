@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inherit</title>
+
+    <style>
+        span {
+            color: blue;
+            border: 1px solid red;
+        }
+
+        .ext span {
+            color: inherit;
+        }
+
+    </style>
+</head>
+<body>
+    
+        <div>
+            Lorem ipsum <span>dolor</span>, sit amet consectetur adipisicing elit. Asperiores esse temporibus, harum sapiente est ullam maxime adipisci! Nemo a dolor facilis voluptas similique incidunt veritatis debitis eos, aspernatur consectetur obcaecati?
+        </div>
+
+        <div class="ext" style="color: yellowgreen;">
+            Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit. Officiis commodi magni corporis, eligendi earum harum expedita eveniet repellendus sit, voluptatem maxime excepturi placeat tempora hic, praesentium facilis voluptates culpa voluptatum.
+        </div>
+        
+        <!-- <div  style="color: yellowgreen;">
+            Lorem ipsum <span style="color: inherit;">dolor</span> sit amet consectetur adipisicing elit. Officiis commodi magni corporis, eligendi earum harum expedita eveniet repellendus sit, voluptatem maxime excepturi placeat tempora hic, praesentium facilis voluptates culpa voluptatum.
+        </div> -->
+
+        <div>
+            Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit. Quasi hic harum sequi ratione voluptatum vitae molestias? Dolorem aliquid rerum temporibus expedita vel aperiam provident ipsum, velit cupiditate voluptatum omnis eos?
+        </div>
+</body>
+</html>
