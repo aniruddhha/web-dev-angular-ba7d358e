@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Template Demo</title>
+
+    <style>
+        html, body {
+            width: 100vw;
+            height: 100vh;
+        }
+        .grid-container {
+
+            width: 100%;
+            height: 100%;
+
+            display: grid;
+
+            grid-template-areas: 
+            'header header header header header header'
+            'menu menu main main main right'
+            'menu menu footer footer footer footer';
+
+            grid-auto-rows: 1fr;
+
+            gap: 10px;
+
+            background-color: #2196F3;
+            
+        }
+
+        .itm1 {
+            grid-area: header;
+        }
+        .itm2 {
+            grid-area: menu;
+        }
+        .itm3 {
+            grid-area: main;
+        }
+       .itm4 {
+            grid-area: right;
+        }
+        .itm5 {
+            grid-area: footer;
+        }
+
+        .grid-container > div {
+
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            font-size: 3em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="itm1">Header</div>
+        <div class="itm2">Menu</div>
+        <div class="itm3">Main</div>
+        <div class="itm4">Right</div>
+        <div class="itm5">Footer</div>
+    </div>
+</body>
+</html>
