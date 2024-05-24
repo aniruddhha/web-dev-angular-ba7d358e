@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Index</title>
 
     <style>
-        html, body {
+        html,
+        body {
             width: 100vw;
             height: 100vh;
         }
@@ -22,71 +24,90 @@
             flex-direction: column;
 
             align-items: center;
+            justify-content: space-between;
         }
 
         header {
             width: 100%;
             display: flex;
-            border: 1px solid red;
         }
+
         nav {
             width: 100%;
 
             display: flex;
             flex-direction: row-reverse;
         }
-        .nv {
+
+        ul {
             display: flex;
             list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 13%;
+
+            justify-content: space-around;
+            text-decoration: underline;
+
         }
 
         section {
             width: 50%;
         }
 
-        section > .mn {
+        .mn {
             background-color: azure;
             display: flex;
             flex-direction: column;
         }
+
+        footer {
+            width: 100%;
+
+            display: flex;
+            justify-content: space-between;
+        }
     </style>
 
 </head>
+
 <body>
     <main>
         <header>
             <nav>
-                <ul class="nv">
+                <ul>
                     <li>Gmail</li>
                     <li>Images</li>
                 </ul>
             </nav>
         </header>
-        <section>
-            <div class="mn">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png" alt="Google Logo">
-                <input type="text">
-                <div>
-                    <input type="button" value="Google Search">
-                    <input type="button" value="I am Feeling Lucky">
-                </div>
+
+        <section class="mn">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png"
+                alt="Google Logo">
+            <input type="text">
+            <div>
+                <input type="button" value="Google Search">
+                <input type="button" value="I am Feeling Lucky">
             </div>
         </section>
-        <footer>
-            <div>
-                <ul>
-                    <li>About</li>
-                    <li>Advertising</li>
-                    <li>Business</li>
-                </ul>
 
-                <ul>
-                    <li>Privacy</li>
-                    <li>Terms</li>
-                    <li>Settings</li>
-                </ul>
-            </div>
+        <footer>
+
+            <ul>
+                <li>About</li>
+                <li>Advertising</li>
+                <li>Business</li>
+            </ul>
+
+            <ul>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+
         </footer>
     </main>
 </body>
+
 </html>
