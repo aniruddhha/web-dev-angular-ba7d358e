@@ -1,0 +1,26 @@
+{
+  "name": "first-app",
+  "version": "0.0.1",
+  "description": "this first package created for learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Testing Testing \"",
+    "exex": "node app.js"
+  },
+  "author": "aniruddha",
+  "license": "ISC",
+  "keywords": [
+    "simple",
+    "angular",
+    "js"
+  ],
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "http2-wrapper": "2.2.1"
+  },
+  "devDependencies": {
+    "jest" : "29.7.0",
+    "gulp": "5.0.0"
+  },
+  "type": "module"
+}
