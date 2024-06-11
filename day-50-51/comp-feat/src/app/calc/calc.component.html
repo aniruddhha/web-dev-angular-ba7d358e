@@ -1,0 +1,16 @@
+<div class="container">
+
+    <div>
+        <h1>Result {{ipOb.res}}</h1>
+    </div>
+    <input type="number" placeholder="Num1" [style.fontSize]="'2em'" (change)="onNum1Change($event)">
+    <input type="number" placeholder="Num2" [style.fontSize]="'2em'" (change)="onNum2Change($event)">
+
+    <div [style.display]="'flex'">
+        <input type="button" value="Add" [style.fontSize]="'2em'" (click)="onAdd()">
+        <input type="button" value="Sub" [style.fontSize]="'2em'" (click)="onSub()">
+        <input type="button" value="Div" [style.fontSize]="'2em'" (click)="onDiv()">
+        <input type="button" value="Mul" [style.fontSize]="'2em'" (click)="onMul()">
+    </div>
+   
+</div>

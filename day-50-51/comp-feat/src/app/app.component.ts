@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { BarComponent } from './bar.component';
+import { CalcComponent } from './calc/calc.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [BarComponent],
+  imports: [BarComponent, CalcComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
