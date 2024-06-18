@@ -1,0 +1,36 @@
+<section [attr.hi]="'how are you'">
+  <h1 [style.fontSize.em]="hdSz"> Bindings </h1>
+</section>
+
+<section [attr.dataBsDismiss]="'hello'">
+  <h1> Property </h1>
+  <input [type]="'text'" [placeholder]="'Number'">
+</section>
+
+<section>
+  <h1> Event {{title}}</h1>
+  <input [type]="'button'" value="Okay" (click)="isBk = !isBk">
+</section>
+
+<section>
+  <h1 [style.border]="'1px solid red'"> Style Binding</h1>
+</section>
+
+<section [class.bk]="isBk">
+  <h1> Class Binding</h1>
+</section>
+
+<section>
+  <h1>Two Way Binding</h1>
+  <input type="text" [(ngModel)]="ip">  {{ip}}
+</section>
+
+<section>
+  <h1>Same As Two way Binding</h1>
+  <input type="text" [value]="ip" (input)="handleInputEvent($event)">  {{ip}}
+</section>
+
+<section>
+  <h1>Custom Events</h1>
+  <app-range (range)="hdSz=$event"></app-range>
+</section>

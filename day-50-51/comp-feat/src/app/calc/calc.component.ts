@@ -16,6 +16,8 @@ export class CalcComponent {
   }
 
   onNum1Change(e: Event)  {
+
+    console.log(e)
     console.log(`Num1`)
 
     const ip = e.target as HTMLInputElement
@@ -25,6 +27,7 @@ export class CalcComponent {
   }
 
   onNum2Change(e: Event) {
+    console.log(e.target)
     console.log(`Num2`)
     const ip = e.target as HTMLInputElement
     console.log(ip.value)
