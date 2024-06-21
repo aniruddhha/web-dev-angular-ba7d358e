@@ -8,14 +8,19 @@
 
 <div>
     <h1>
-        Result: {{}}
+        Result: {{clc.rs}}
     </h1>
-    <input type="number" placeholder="Num1">
-    <input type="number" placeholder="Num2">
+    <input type="number" placeholder="Num1" [(ngModel)]="clc.num1">
+    <input type="number" placeholder="Num2"  [(ngModel)]="clc.num2">
     <div>
-        <input type="button" value="Add">
-        <input type="button" value="Sub">
-        <input type="button" value="Div">
-        <input type="button" value="Mul">
+        <input type="button" value="Add" (click)="handleOperation(1)">
+        <input type="button" value="Sub" (click)="handleOperation(2)">
+        <input type="button" value="Div" (click)="handleOperation(4)">
+        <input type="button" value="Mul" (click)="handleOperation(3)">
     </div>
 </div>
+
+<section >
+    <h1 [ngClass]="isBg ? 'bg-red': 'bg-white'"> Welcome TO Angular </h1>
+    <h1 [ngStyle]="st">Welcome To Angular</h1>
+</section>
