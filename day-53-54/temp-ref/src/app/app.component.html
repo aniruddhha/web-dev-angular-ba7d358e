@@ -24,3 +24,29 @@
     <h1 [ngClass]="isBg ? 'bg-red': 'bg-white'"> Welcome TO Angular </h1>
     <h1 [ngStyle]="st">Welcome To Angular</h1>
 </section>
+
+<section>
+    <h1 *ngIf="isH1"> Hello World </h1>
+    <h2 *ngIf="isH2"> Welcome to Angular </h2>
+</section>
+
+<section>
+   <select>
+        <option *ngFor="let obj of names" [value]="obj.id">Click {{obj.ttl}}</option>
+   </select>
+</section>
+
+<section>
+
+    <div [ngSwitch]="day">
+        <p *ngSwitchCase="0">Sun</p>
+        <p *ngSwitchCase="1">Mon</p>
+        <p *ngSwitchCase="2">Tue</p>
+        <p *ngSwitchCase="3">Wed</p>
+        <p *ngSwitchCase="4">Thu</p>
+        <p *ngSwitchCase="5">Fri</p>
+        <p *ngSwitchCase="6">Sat</p>
+        <p *ngSwitchDefault>No Day</p>
+    </div>
+    
+</section>

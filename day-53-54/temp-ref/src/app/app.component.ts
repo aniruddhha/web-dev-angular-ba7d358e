@@ -1,12 +1,15 @@
-import { NgClass, NgStyle } from '@angular/common';
+import { NgClass, NgFor, NgIf, NgStyle, NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NgClass, NgStyle, FormsModule],
+  imports: [
+    NgClass, NgStyle, FormsModule,
+    NgIf, NgFor,
+    NgSwitch, NgSwitchCase, NgSwitchDefault
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -25,6 +28,19 @@ export class AppComponent {
     num2: 0,
     rs: 0
   }
+
+  isH1 = true
+  isH2 = true
+
+  names = [
+    {id: 1, ttl: 'abc'},
+    {id: 2, ttl: 'pqr'},
+    {id: 3, ttl: 'lmn'},
+    {id: 4, ttl: 'xyz'},
+    {id: 5, ttl: 'tuv'}
+  ]
+
+  day = 5
 
   handleClick(str: string) {
     this.title = str
