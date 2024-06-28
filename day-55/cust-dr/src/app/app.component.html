@@ -1,0 +1,23 @@
+<!-- <section class="box" appMgCol [bgCol]="'yellow'">
+
+</section> -->
+
+<section class="box" [appMgCol]="'yellow'">
+
+</section>
+
+<section [ngClass]="{ isOkay: true }"></section>
+
+<section *appRpt="5">
+    <p>HI </p>
+</section>
+
+<ng-template [appRpt]="5">
+    <p>HI _></p>
+</ng-template>
+
+<section *ngIf="true">Say Hi</section>
+
+<ng-template [ngIf]="true">
+    <section>Say Hi</section>
+</ng-template>
