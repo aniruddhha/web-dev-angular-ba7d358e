@@ -11,13 +11,28 @@ export class RptDirective {
     private vcRef: ViewContainerRef
   ) { }
 
-  @Input() set appRpt(count: number) {
+  @Input()
+  set appRpt(count: number) {
     this.vcRef.clear()
 
     for(let i = 0; i< count; i++) {
       const context = { index: i + 1 }
       this.vcRef.createEmbeddedView(this.tempRef, context)
     }
+  }
+
+}
+
+
+class Car {
+  private _speed = 10
+
+  get speed() {
+    return this._speed
+  }
+
+  set speed(val) {
+    this._speed = val
   }
 
 }
