@@ -9,7 +9,9 @@ export class RptDirective {
   constructor(
     private tempRef: TemplateRef<any>,
     private vcRef: ViewContainerRef
-  ) { }
+  ) {
+    console.log(vcRef)
+   }
 
   @Input()
   set appRpt(count: number) {
@@ -34,5 +36,11 @@ class Car {
   set speed(val) {
     this._speed = val
   }
+}
 
+class Bmw {
+
+  set speedUp(va: number) {
+
+  }
 }
