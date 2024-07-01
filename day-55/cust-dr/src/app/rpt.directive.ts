@@ -22,7 +22,6 @@ export class RptDirective {
       this.vcRef.createEmbeddedView(this.tempRef, context)
     }
   }
-
 }
 
 
